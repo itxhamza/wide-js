@@ -1,0 +1,35 @@
+{
+  "name": "wide-js",
+  "version": "1.0.4",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itxhamza/wide-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itxhamza/wide-js/issues"
+  },
+  "homepage": "https://github.com/itxhamza/wide-js#readme",
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@types/path-to-regexp": "^1.7.0"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.11",
+    "route-map": "^1.0.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.8.2"
+  }
+}

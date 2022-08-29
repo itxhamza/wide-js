@@ -1,0 +1,7 @@
+{
+  "sourceDir": "./routes",
+  "middlewareDir": "./middlewares",
+  "publicFolderDir": "./public",
+  "publicPath": "/public/",
+  "port": 5000
+}
